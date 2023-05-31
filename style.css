@@ -202,10 +202,33 @@ h1{
   margin-left:10%;
 }
 .customer img{
-  /* background-color: #212529; */
   margin-bottom:10%;
   border-radius: 10px 20px;
 }
 hr{
   width: 97%;
+}
+#products{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:30px;
+  margin-top: 30px;
+}
+#products img{
+  width: 300px;
+}
+#products button{
+  background-color: yellow;
+  padding: 20px 20px;
+  border-style: none;
+}
+@media screen and (max-width: 768px) {
+
+  .nav {
+    width: 100%;
+    display: block;
+  }
+  .product img {
+    width: 100%;
+  }
 }
